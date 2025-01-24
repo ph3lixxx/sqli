@@ -1,4 +1,4 @@
-# Install sqli
+# Install Bsqli
 
 Bsqli requires **python3** to run successfully. Run the following command to install the latest version -
 
