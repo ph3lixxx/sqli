@@ -3,7 +3,7 @@
 Bsqli requires **python3** to run successfully. Run the following command to install the latest version -
 
 ```sh
-git clone https://github.com/bluediving/sqli.git
+git clone https://github.com/BlueSecc/sqli.git
 ```
 
 ### Usage
