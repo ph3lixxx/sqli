@@ -18,7 +18,7 @@ __________  _________________  .____    .___
  |______  /_______  /\_____\ \_/_______ \___|
         \/        \/        \__>       \/    
 
-                    By KonaN<3
+                    By Blue
 """
 
 print(Colorate.Diagonal(Colors.purple_to_red, logo))
